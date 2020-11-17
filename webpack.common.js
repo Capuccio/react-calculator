@@ -8,7 +8,7 @@ module.exports = {
 	},
 	output: {
 		filename: "js/[name].[contenthash].chunk.js",
-		path: path.resolve(__dirname, "./dist")
+		path: path.resolve(__dirname, "./build")
 	},
 	resolve: {
 		extensions: [".js", ".jsx"]
