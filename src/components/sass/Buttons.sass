@@ -1,0 +1,30 @@
+.options
+  margin-top: 8%
+  padding: 0 5%
+  display: grid
+  grid-template-columns: auto auto auto auto
+  grid-gap: 24px 15px
+
+  &__color
+    color: white
+    background-color: rgb(97, 198, 242)
+    box-shadow: 0 8px 20px rgba(97, 198, 242, 0.8)
+
+    &--equal
+      grid-column: span 2
+      border-radius: 30px
+
+button
+  font-family: inherit
+  color: rgb(49, 156, 173)
+  background-color: white
+  box-shadow: 0 8px 15px rgb(0, 0, 0, 0.1)
+  border: none
+  outline: none
+  border-radius: 50%
+  font-size: 22px
+  width: 95%
+  height: 65px
+
+  &:hover
+    cursor: pointer
