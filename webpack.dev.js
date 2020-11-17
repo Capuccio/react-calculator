@@ -2,8 +2,6 @@ const { merge } = require("webpack-merge");
 const common = require("./webpack.common.js");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 
-console.log(process.env.NODE_ENV);
-
 module.exports = merge(common, {
 	mode: "development",
 	devtool: "inline-source-map",
