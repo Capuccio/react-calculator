@@ -5,7 +5,7 @@ Clone the project to use it locally:
 ```sh
 git clone https://github.com/Capuccio/react-calculator.git
 cd react-calculator
-npm i
+npm install
 npm run dev
 ```
 
