@@ -12,7 +12,7 @@ npm run dev
 | Script | Action |
 | ------ | ------ |
 | **npm run dev** | Initialize the development server |
-| **npm run build** | Create the *dist* folder for production |
+| **npm run build** | Create the *build* folder for production |
 
 ---
 
