@@ -1,5 +1,4 @@
 .entry
-  height: 25%
   overflow: hidden
   cursor: alias
   white-space: nowrap
@@ -16,6 +15,14 @@
       float: right
 
   &__span
-    margin-top: 4%
+    padding-top: 4%
     padding-right: 2%
     float: right
+
+@media only screen and (max-width: 425px)
+  .entry
+    &__calc
+      padding: 4% 4% 0
+
+    &__span
+      padding-top: 2%
