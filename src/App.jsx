@@ -4,7 +4,7 @@ import "./App.sass";
 import Entry from "./components/Entry";
 import Buttons from "./components/Buttons";
 
-const App = (props) => {
+const App = () => {
 	return (
 		<div className="background">
 			<div className="container">
